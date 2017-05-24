@@ -1,0 +1,5 @@
+SELECT
+  COUNT(*)
+FROM BLEATER_IDS
+  WHERE user_id IS NULL
+  OR bleater_id IS NULL;
